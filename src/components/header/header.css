@@ -1,0 +1,30 @@
+.header {
+  background-color: #f1f1eb;
+  color: #4b321d;
+  padding: 25px 400px 25px 80px;
+  user-select: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo img {
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #4b321d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Poppins;
+}
